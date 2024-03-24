@@ -94,3 +94,63 @@ i.fa.btn-outline-light {
     outline: none;
     border: none;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+i.fa-linkedin.p-1 {
+    color: white;
+    background: #0077b5;
+}
+
+.blog-grid div {
+    padding: 0;
+}
+
+i.fa.btn-outline-light {
+    outline: none;
+    border: none;
+}
+.des{
+    text-align: center;
+}
